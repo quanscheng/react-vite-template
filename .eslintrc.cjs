@@ -8,7 +8,6 @@ module.exports = {
     'standard',
     'prettier',
     'plugin:react-hooks/recommended',
-    'plugin:react/jsx-runtime', // 不引入React就可以写jsx
   ],
   overrides: [],
   parserOptions: {
@@ -26,7 +25,6 @@ module.exports = {
     'comma-spacing': 1, // 逗号前后的空格
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
-    'react/react-in-jsx-scope': 0,
     // 'no-implicit-coercion': 1, // 禁止隐式转换
     // 其他参考:
     // 'accessor-pairs': 2, // 定义对象的set存取器属性时，强制定义get
