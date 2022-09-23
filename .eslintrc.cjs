@@ -4,6 +4,7 @@ module.exports = {
     es2021: true,
   },
   extends: [
+    'react-app',
     'plugin:react/recommended',
     'standard',
     'prettier',
@@ -20,7 +21,7 @@ module.exports = {
     // 'prettier/prettier': 'error', // prettier报错
     camelcase: 0, // 双峰驼命名格式
     eqeqeq: 2, // 必须使用全等
-    'comma-dangle': 0,
+    // 'comma-dangle': 0,
     'func-names': 1, // 函数表达式必须有名字
     'no-var': 2, // 禁用var，用let和const代替
     'comma-spacing': 1, // 逗号前后的空格
