@@ -1,6 +1,6 @@
 # react18 + vite3
 
-> 一句话说明: 集成并扩展 CRA 的 eslint 和 commit 规范
+> 一句话说明: 基于 vite3 ,集成并扩展 CRA 的 eslint 和 commit 规范
 
 ## Commits 规范说明：
 
