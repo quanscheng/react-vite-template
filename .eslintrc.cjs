@@ -7,6 +7,7 @@ module.exports = {
     'plugin:react/recommended',
     'standard',
     'prettier',
+    'plugin:react/jsx-runtime', // 不引入React就可以写jsx
     'plugin:react-hooks/recommended',
   ],
   overrides: [],
